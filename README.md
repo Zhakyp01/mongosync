@@ -31,4 +31,15 @@ mongosync \
 --cluster0 'mongodb+srv://clusterAdmin:superSecret@cluster1name.ab123.mongodb.net/'\   
 --cluster1 'mongodb+srv://clusterAdmin:superSecret@cluster2Name.ab123.mongodb.net/' 
 ```
+
+## commands
+```
+mongosync --config mongosync.conf
+```
+```
+ curl localhost:27182/api/v1/progress -XGET
+```
+```
+ curl localhost:27182/api/v1/start -XPOST --data '{"source": "cluster0", "destiantion": "cluster1"}'
+```
 Let me know if you need any further clarifications on this.
