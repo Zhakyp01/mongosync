@@ -31,3 +31,4 @@ mongosync \
 --cluster0 'mongodb+srv://clusterAdmin:superSecret@cluster1name.ab123.mongodb.net/'\   
 --cluster1 'mongodb+srv://clusterAdmin:superSecret@cluster2Name.ab123.mongodb.net/' 
 ```
+Let me know if you need any further clarifications on this.
